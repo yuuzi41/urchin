@@ -7,7 +7,7 @@ An unikernel for routing.
 * Just for virtual machine (especially firecracker)
 * No User space. All of codes are running on Kernel(privileged) space.
 * No Virtual memory. flattened memory address space.
-* Tiny foot print.
+* Tiny foot print. (~ 1MB)
 
 ## Requirements
 
@@ -16,3 +16,11 @@ An unikernel for routing.
 ## How to build
 
 ./build.sh
+
+## Todo
+
+* To support multi core
+* ECMP
+* BGP
+
+
